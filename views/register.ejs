@@ -1,0 +1,45 @@
+<% include ./partials/header.ejs %>
+<div class="background">
+<main id="register">
+  <!-- Title section -->
+  <div class="register-title">
+    <h1><span style="color: brown;">Dev</span>Error</h1>
+    <h3>DevError easy to connect developer <br> in your coding life</h3>
+  </div>
+  <!-- Registration form container -->
+  <div class="register-container">
+    <div class="register">
+        <div class="register-wrap">
+            <h2>Register</h2>
+            <!-- Registration form -->
+            <div class="register-form">
+             <!-- Name input -->
+             <input type="text" placeholder="Full Name" name="name" />
+              <!-- Date of Birth input -->
+              <div class="date-of-birth"> 
+                <label style="float: left; margin-left: 35px; font-size: 13px;">Date of Birth:</label>
+                <input type="date" name="dateOfBirth" />
+              </div>
+              <!-- Gender selection -->
+              <div class="gender-selection">
+                <label style="margin-left: 25px;">Gender:</label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+              </div>
+              <!-- Email input -->
+              <input type="text" placeholder=" Enter Email" name="Email" />
+              <!-- Password input -->
+              <input type="password" placeholder="Create Password" name="Password" />
+
+              <!-- Submit button -->
+              <button> Sign up </button>
+              <!-- Link to registration page -->
+              <a href="/"> <p>  Already have an account? Login </p></a>
+            </div>
+          </div>
+  </div>
+</main>
+</div>
+<% include ./partials/footer.ejs %>

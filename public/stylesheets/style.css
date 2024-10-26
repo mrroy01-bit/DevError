@@ -1,0 +1,234 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: gilroy;
+}
+.background{
+    background-color:#F2F4F7 ;
+}
+
+#login {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35vh;
+}
+
+.title {
+    font-size: 24px;
+    margin-left: 70vh;
+}
+
+.title h3 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.container {
+    margin-left: 10vh;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.login-wrap {
+    position: relative;
+    margin: 0;
+    background: #FFFFFF;
+    width: 350px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px #333;
+    padding: 10px;
+
+    h2 {
+        text-align: center;
+        font-weight: 200;
+        font-size: 2em;
+        margin-top: 10px;
+        color: #34495e;
+    }
+
+    .form {
+        padding-top: 20px;
+
+        input[type="text"],
+        input[type="password"],
+        button {
+            width: 80%;
+            margin-left: 10px;
+            margin-bottom: 25px;
+            height: 40px;
+            border-radius: 5px;
+            outline: 0;
+            -moz-outline-style: none;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            border: 1px solid #bbb;
+            padding: 0 0 0 10px;
+            font-size: 14px;
+
+            &:focus {
+                border: 1px solid #3498db;
+            }
+        }
+
+        a {
+            text-align: center;
+            font-size: 10px;
+            color: #3498db;
+
+            p {
+                padding-bottom: 10px;
+            }
+
+        }
+
+        button {
+            background: #2a9444;
+            border: none;
+            color: white;
+            font-size: 18px;
+            font-weight: 200;
+            cursor: pointer;
+            transition: box-shadow .4s ease;
+
+            &:hover {
+                box-shadow: 1px 1px 5px #555;
+            }
+
+            &:active {
+                box-shadow: 1px 1px 7px #222;
+            }
+
+        }
+
+    }
+
+
+}
+/* Register styles */
+
+#register {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8vh;
+}
+
+.register-title {
+    font-size: 24px;
+    margin-left: 70vh;
+}
+
+.register-title h3 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.register-container {
+    margin-left: 10vh;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.register-wrap {
+    position: relative;
+    margin: 0;
+    background: #FFFFFF;
+    width: 350px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px #333;
+    padding: 10px;
+
+    h2 {
+        text-align: center;
+        font-weight: 200;
+        font-size: 2em;
+        margin-top: 10px;
+        color: #34495e;
+    }
+
+.register-form {
+        padding-top: 20px;
+
+        input[type="text"],
+        input[type="password"],
+        input[type="date"],
+        button {
+            width: 80%;
+            margin-left: 10px;
+            margin-bottom: 25px;
+            height: 40px;
+            border-radius: 5px;
+            outline: 0;
+            -moz-outline-style: none;
+        }
+
+        input[type="text"],
+        input[type="password"],
+        input[type="date"] {
+            border: 1px solid #bbb;
+            padding: 0 0 0 10px;
+            font-size: 14px;
+
+            &:focus {
+                border: 1px solid #3498db;
+            }
+        }
+
+        .gender-selection {
+            width: 80%;
+            margin-left: 10px;
+            margin-bottom: 25px;
+            text-align: left;
+
+            label {
+                margin-right: 10px;
+            }
+
+            input[type="radio"] {
+                margin-right: 5px;
+            }
+        }
+
+        a {
+            text-align: center;
+            font-size: 10px;
+            color: #3498db;
+
+            p {
+                padding-bottom: 10px;
+            }
+
+        }
+
+        button {
+            background: #2a9444;
+            border: none;
+            color: white;
+            font-size: 18px;
+            font-weight: 200;
+            cursor: pointer;
+            transition: box-shadow .4s ease;
+
+            &:hover {
+                box-shadow: 1px 1px 5px #555;
+            }
+
+            &:active {
+                box-shadow: 1px 1px 7px #222;
+            }
+
+        }
+
+    }
+
+
+}
+
+
